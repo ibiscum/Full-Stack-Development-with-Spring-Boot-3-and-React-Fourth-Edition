@@ -6,6 +6,7 @@ plugins {
 
 group = 'com.packt'
 version = '0.0.1-SNAPSHOT'
+apply plugin: 'maven-publish'
 
 java {
 	sourceCompatibility = '17'
@@ -23,4 +24,12 @@ dependencies {
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+publishing {
+	publications {
+		maven(MavenPublication) {
+			from components.java
+		}
+	}
 }
