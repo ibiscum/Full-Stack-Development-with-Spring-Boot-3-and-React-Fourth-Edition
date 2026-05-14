@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.packt</groupId>
+    <artifactId>book</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Full-Stack Development with Spring Boot and React - Fourth Edition</name>
+    <packaging>pom</packaging>
+    <description>Full-Stack Development with Spring Boot and React - Fourth Edition</description>
+
+    <properties>
+        <java.version>25</java.version>
+        <spring-boot.version>4.0.6</spring-boot.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <netty.version>4.2.13.Final</netty.version>
+    </properties>
+
+    <modules>
+        <module>chapter01</module>
+        <module>chapter03</module>
+    </modules>
+
+</project>

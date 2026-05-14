@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.packt</groupId>
-    <artifactId>ch01-review-service</artifactId>
+    <artifactId>ch01-car-database</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ch01-review-service</name>
+    <name>ch01-car-database</name>
 
     <properties>
         <java.version>25</java.version>
