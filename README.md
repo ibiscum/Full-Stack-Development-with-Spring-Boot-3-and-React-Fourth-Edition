@@ -2,6 +2,7 @@
 
 [![CodeQL Advanced](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/codeql.yml/badge.svg)](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/codeql.yml)
 [![Dependabot Updates](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependabot/dependabot-updates)
+[![Automatic Dependency Submission](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependency-graph/auto-submission/badge.svg)](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependency-graph/auto-submission)
 
 This is the code repository for [Full Stack Development with Spring Boot 3 and React - Fourth Edition](https://www.packtpub.com/product/full-stack-development-with-spring-boot-3-and-react-fourth-edition/9781805122463), published by Packt.
 
