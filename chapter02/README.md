@@ -1,33 +1,37 @@
+# No dependency injection
+
 ```
-public class Car { 
-  private Owner owner; 
+public class Car {
+  private Owner owner;
 
-  public Car() { 
-    owner = new Owner(); 
-  } 
-} 
+  public Car() {
+    owner = new Owner();
+  }
+}
 
-public class Car { 
-  private Owner owner; 
+public class Car {
+  private Owner owner;
 
-  public Car(Owner owner)  { 
-    this.owner = owner; 
-  } 
+  public Car(Owner owner)  {
+    this.owner = owner;
+  }
 }
 ```
 
-Setter injection
-```
-public class Car { 
-  private Owner owner; 
+# Setter injection
 
-  public void setOwner(Owner owner) { 
-    this.owner = owner; 
-  } 
-} 
+```
+public class Car {
+  private Owner owner;
+
+  public void setOwner(Owner owner) {
+    this.owner = owner;
+  }
+}
 ```
 
-Spring Boot examples
+# Spring Boot examples
+
 ```
 // Constructor injection
 public class Car {
@@ -36,14 +40,14 @@ public class Car {
   public Car(CarRepository carRepository) {
     this.carRepository = carRepository;
   }
-      
-  // Fetch all cars from db 
+
+  // Fetch all cars from db
   carRepository.findAll();
   ...
 }
 
 // Constructor to used for dependency injection
-@Autowired  
+@Autowired
 public Car(CarRepository carRepository) {
   this.carRepository = carRepository;
 }
