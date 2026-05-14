@@ -1,13 +1,16 @@
 # Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition
-This is the code repository for [Full Stack Development with Spring Boot 3 and React - Fourth Edition](https://www.packtpub.com/product/full-stack-development-with-spring-boot-3-and-react-fourth-edition/9781805122463), published by Packt.
 
+[![CodeQL Advanced](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/codeql.yml/badge.svg)](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/codeql.yml)
+[![Dependabot Updates](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/ibiscum/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/actions/workflows/dependabot/dependabot-updates)
+
+This is the code repository for [Full Stack Development with Spring Boot 3 and React - Fourth Edition](https://www.packtpub.com/product/full-stack-development-with-spring-boot-3-and-react-fourth-edition/9781805122463), published by Packt.
 
 **Build modern web applications using the power of Java, React, and TypeScript**
 
-The author of this book is -[Juha Hinkula](https://www.linkedin.com/in/juha-hinkula-6743322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+The author of this book is [Juha Hinkula](https://www.linkedin.com/in/juha-hinkula-6743322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+
 ## Errata
 [Errata](errata.md): Typos, tool user interface changes, or mistakes in code that would cause an error.
-
 
 ## About the book
 
@@ -15,7 +18,6 @@ If you’re an existing Java developer who wants to go full stack or pick up ano
 This new edition is updated to Spring Boot 3 and includes expanded content on security and testing. For the first time ever, it also covers React development with the in-demand TypeScript.
 You’ll explore the elements that go into creating a REST API and testing, securing, and deploying your applications. You’ll learn about custom Hooks, third-party components, and MUI.
 By the end of this book, you'll be able to build a full stack application using the latest tools and modern best practices.
-
 
 ## Key Takeaways
 * Make fast and RESTful web services powered by Spring Data REST
@@ -27,22 +29,20 @@ By the end of this book, you'll be able to build a full stack application using 
 * Add CRUD functionality to your apps
 * Deploy your apps using AWS and Docker
 
-
-## What's New 
-This fourth edition has been updated to Spring Boot 3. Here are the biggest changes: 
-* A new chapter introducing TypeScript, and TypeScript code throughout the book 
-* More modern tooling (Maven -> Gradle, create-react-app -> Vite) 
-* Expanded content on Spring Security and testing with Vitest 
-* New content on fetching data with the React Query library  
-* Backend deployment on AWS Elastic Beanstalk 
-* Frontend deployment on Netlify 
+## What's New
+This fourth edition has been updated to Spring Boot 3. Here are the biggest changes:
+* A new chapter introducing TypeScript, and TypeScript code throughout the book
+* More modern tooling (Maven -> Gradle, create-react-app -> Vite)
+* Expanded content on Spring Security and testing with Vitest
+* New content on fetching data with the React Query library
+* Backend deployment on AWS Elastic Beanstalk
+* Frontend deployment on Netlify
 
 ## Outline and Chapter Summary
 If you’re an existing Java developer who wants to go full stack or pick up another frontend framework, this book is your concise introduction to React. In this three-part build-along, you’ll create a robust Spring Boot backend, a React frontend, and then deploy them together.
 This new edition is updated to Spring Boot 3 and includes expanded content on security and testing. For the first time ever, it also covers React development with the in-demand TypeScript.
 You’ll explore the elements that go into creating a REST API and testing, securing, and deploying your applications. You’ll learn about custom Hooks, third-party components, and MUI.
-By the end of this book, you’ll be able to build a full stack application using the latest tools and modern best practices. 
-
+By the end of this book, you’ll be able to build a full stack application using the latest tools and modern best practices.
 
 1. Chapter 1, [Setting Up the Environment and Tools – Backend](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter01)
 2. Chapter 2, [Understanding Dependency Injection](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-Boot-3-and-React-Fourth-Edition/tree/main/Chapter02)
@@ -68,7 +68,7 @@ By the end of this book, you’ll be able to build a full stack application usin
 Chapter 1, _Setting Up the Environment and Tools – Backend_, explains how to install the software needed in this book for backend development and how to create your first Spring Boot application.
 
 ### Chapter 02, Understanding Dependency Injection
-Chapter 2, _Understanding Dependency Injection_, explains the basics of dependency injection and how it is achieved in Spring Boot. 
+Chapter 2, _Understanding Dependency Injection_, explains the basics of dependency injection and how it is achieved in Spring Boot.
 
 ### Chapter 03, Using JPA to Create and Access a Database
 Chapter 3, _Using JPA to Create and Access a Database_, introduces JPA and explains how to create and access databases with Spring Boot.
@@ -81,7 +81,6 @@ Chapter 5, _Securing Your Backend_, explains how to secure your backend using Sp
 
 ### Chapter 06, Testing Your Backend
 Chapter 6, _Testing Your Backend_, covers testing in Spring Boot. We will create a few unit and integration tests for our backend and learn about test-driven development.
-
 
 
 ## Part II: Frontend Programming with React
@@ -98,8 +97,7 @@ Chapter 9, _Introduction to TypeScript_, covers the basics of TypeScript and how
 Chapter 10, _Consuming the REST API with React_, shows how to use REST APIs with React using the Fetch API.
 
 ### Chapter 11, Useful Third-Party Components for React
-Chapter 11, _Useful Third-Party Components for React_, demonstrates some useful components that we’ll use in our frontend development. 
-
+Chapter 11, _Useful Third-Party Components for React_, demonstrates some useful components that we’ll use in our frontend development.
 
 
 ## Part III: Full Stack Development
@@ -115,16 +113,11 @@ Chapter 14, _Styling the Frontend with MUI_, shows how to polish the user interf
 ### Chapter 15, Testing React Apps
 Chapter 15, _Testing Your Frontend_, explains the basics of React frontend testing.
 
-
 ### Chapter 16, Securing Your Application
 Chapter 16, _Securing Your Application_, explains how to secure the frontend using JWTs.
 
-
 ### Chapter 17, Deploying Your Application
 Chapter 17, _Deploying Your Application_, demonstrates how to deploy an application with AWS and Netlify, and how to use Docker containers.
-
-
-
 
 > If you feel this book is for you, get your [copy](https://www.amazon.com/Full-Stack-Development-Spring-React-ebook/dp/B0CGM5LNWN/ref=sr_1_1?crid=10CRUCBS8PS5V&keywords=Full+Stack+Development+with+Spring+Boot+3+and+React&qid=1698642246&s=books&sprefix=full+stack+development+with+spring+boot+3+and+react%2Cstripbooks-intl-ship%2C257&sr=1-1) today! <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
 
@@ -159,7 +152,6 @@ _If you have already purchased a print or Kindle version of this book, you can g
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book at [GraphicBundle](https://packt.link/gbp/9781805122463) <img alt="Coding" height="15" width="35"  src="https://media.tenor.com/ex_HDD_k5P8AAAAi/habbo-habbohotel.gif">
 
-
 ## Get to know the Author
 _Juha Hinkula_ is a software development lecturer at Haaga-Helia University of Applied Sciences in Finland. He received an MSc degree in Computer Science from the University of Helsinki and has over 17 years of industry experience in software development. Over the past few years, he has focused on modern full stack development. He is also a passionate mobile developer with Android-native technology, and he uses React Native.
 
@@ -167,8 +159,4 @@ _Juha Hinkula_ is a software development lecturer at Haaga-Helia University of A
 - [Microservices with Spring Boot 3 and Spring Cloud - Third Edition](https://www.packtpub.com/product/microservices-with-spring-boot-3-and-spring-cloud-third-edition/9781805128694)
 - [React 18 Design Patterns and Best Practices, 4e](https://www.packtpub.com/product/react-18-design-patterns-and-best-practices-fourth-edition/9781803233109)
 
-
-
-
 ## Errata
-

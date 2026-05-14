@@ -4,6 +4,15 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+*.class
+*.jar
+*.war
+*.ear
 
 ### STS ###
 .apt_generated
