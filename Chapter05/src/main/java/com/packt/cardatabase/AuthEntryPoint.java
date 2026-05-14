@@ -18,6 +18,6 @@ public class AuthEntryPoint implements AuthenticationEntryPoint {
 		response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
 		response.setContentType(MediaType.APPLICATION_JSON_VALUE);
 		PrintWriter writer = response.getWriter();
-		writer.println("Error: " + authException.getMessage());
+		writer.println("Error: Unauthorized");
 	}
 }
