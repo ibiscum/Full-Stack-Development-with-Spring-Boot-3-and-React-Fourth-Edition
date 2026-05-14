@@ -1,4 +1,4 @@
-name: chapter03
+name: chapter04
 services:
   mariadb:
     image: mariadb:lts-ubi
@@ -6,10 +6,10 @@ services:
     volumes:
       - mariadb_data:/var/lib/mysql
     environment:
-      MARIADB_ROOT_PASSWORD: root_password_here
-      MARIADB_DATABASE: my_database
-      MARIADB_USER: my_user
-      MARIADB_PASSWORD: my_password
+      MARIADB_ROOT_PASSWORD: YOUR_ROOT_PASSWORD
+      MARIADB_DATABASE: cardb
+      MARIADB_USER: cardb_user
+      MARIADB_PASSWORD: YOUR_DB_PASSWORD
     ports:
       - '127.0.0.1:3306:3306'
     restart: always
